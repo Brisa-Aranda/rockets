@@ -1,0 +1,104 @@
+body {
+  margin: 10px;
+  background-image: url("img/wall.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body .container {
+  margin: 0.5%;
+  margin-top: 10%;
+}
+body .container .minion_btn {
+  margin-left: 4%;
+  margin: 0.5%;
+  padding: 0.6rem 1rem;
+  border: 1px solid #ca09ca;
+  border-radius: 4px;
+  background-color: #020024;
+  color: #fff;
+  font-size: 1.5rem;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 3px rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(yellow, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+}
+body .container .minion_btn:hover, body .container .minion_btn:focus {
+  background-color: #020024;
+  background-image: linear-gradient(90deg, #020024 0%, #ce4ed6 35%, #00d4ff 50%);
+}
+body .container .minion_btn:active {
+  background-color: #020024;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset;
+  background-image: linear-gradient(90deg, #020024 0%, #e41ba3 22%, #53edd0 93%);
+}
+body .container #minion_btn2 {
+  margin-left: 21%;
+}
+body .container #result {
+  margin: 3em;
+  padding: 1em;
+  border: aqua solid 1px;
+  color: white;
+  width: 40%;
+  font-size: 1.5rem;
+}
+body h1 {
+  background: -webkit-linear-gradient(yellow, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+  margin-left: 33%;
+  margin-top: 4%;
+  font-size: 50px;
+}
+body #my_canvas {
+  background: #0d0d0c;
+  border: #daf108 1px solid;
+  width: 40%;
+  height: 50%;
+  border-radius: 4px;
+  margin-left: 4%;
+}
+body .barra {
+  background: #0d0d0c;
+  border: #daf108 1px solid;
+  color: #ffffff;
+  font-size: 20px;
+  height: 20px;
+  padding: 20px;
+  width: 38%;
+  margin-left: 4%;
+  border-radius: 4px;
+}
+body .game_btn {
+  margin-left: 7%;
+  padding: 0.6rem 1rem;
+  border: 1px solid #995309;
+  border-radius: 4px;
+  background-color: #d9750b;
+  color: #fff;
+  font-size: 1.5rem;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 3px rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(yellow, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;
+}
+body .game_btn:hover, body .game_btn:focus {
+  background-color: #e0811b;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #f0a100), to(#f70));
+  background-image: linear-gradient(#f0a100 10%, #f70 100%);
+}
+body .game_btn:active {
+  background-color: #cf6a00;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #f0a100), to(#f70));
+  background-image: linear-gradient(#f0a100 10%, #f70 100%);
+}
+
+/*# sourceMappingURL=style.css.map */
